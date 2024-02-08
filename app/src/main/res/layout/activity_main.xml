@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:padding="16dp"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/bubble_pb"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spinner_input_languages"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:layout_margin="10sp"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:background="@color/lightViolet"
+            android:textColor="@color/white"
+            android:autofillHints="language"/>
+
+    <ImageButton
+        android:id="@+id/recordButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="Record"
+        android:background="@drawable/recordicon2"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

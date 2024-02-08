@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VGChatApp</string>
+    <string-array name="inlangs">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Tamil</item>
+<!--        <item>Kannada</item>-->
+<!--        <item>Gujarati</item>-->
+<!--        <item>Telugu</item>-->
+    </string-array>
+    <string name="vgUrl"></string>  <!--Replace with your endpoint-->
+</resources>
